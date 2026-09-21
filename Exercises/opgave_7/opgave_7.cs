@@ -31,14 +31,14 @@ for (int year=2000 ; year<=2020 ; year++)
 }
 
 
-//Opgave 7.15
+//Opgave 7.15 person discribtion
 
-Person person = new Person { name = "mikkel ", age = 19 , height = 1.86f } ;
+Person person = new Person { name = "mikkel ", age = 20 , height = 1.86f } ;
 Console.WriteLine("name = " + person.name + "age = " + person.age + "height = " + person.height);
 
 
-//Opgave 7.16
-// 
+//Opgave 7.16 direction
+
 direction direction = direction.south;
 
 switch (direction) {
@@ -59,6 +59,30 @@ switch (direction) {
     break;
 }
 
+//Describtion of af foreach loop
+int[] tal = { 1, 2, 3, 4, 5 };
+int sum = 0;
+
+foreach (int t in tal)
+{
+    sum = sum + t;
+    Console.WriteLine("Tallet er " + t + ", summen er nu " + sum);
+}
+
+Console.WriteLine("Færdig! Samlet sum: " + sum);
+
+//Opgve sudoku checker
+int [][] arrayinarray = [
+    [4, 3, 5, 2, 6, 9, 7, 8, 1],
+    [6, 8, 2, 5, 7, 1, 4, 9, 3],
+    [1, 9, 7, 8, 3, 4, 5, 6, 2],
+    [8, 2, 6, 1, 9, 5, 3, 4, 7],
+    [3, 7, 4, 6, 8, 2, 9, 1, 5],
+    [9, 5, 1, 7, 4, 3, 6, 2, 8],
+    [5, 1, 9, 3, 2, 6, 8, 7, 4],
+    [2, 4, 8, 9, 5, 7, 1, 3, 6],
+    [7, 6, 3, 4, 1, 8, 2, 5, 9]
+];
 
 //Class fra Opgave 7.16
 enum direction {
