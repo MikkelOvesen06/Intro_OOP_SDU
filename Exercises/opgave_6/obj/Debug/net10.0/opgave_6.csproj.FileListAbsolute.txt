@@ -1,0 +1,15 @@
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.AssemblyInfoInputs.cache
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.AssemblyInfo.cs
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.csproj.CoreCompileInputs.cache
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.sourcelink.json
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\bin\Debug\net10.0\opgave_6.exe
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\bin\Debug\net10.0\opgave_6.deps.json
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\bin\Debug\net10.0\opgave_6.runtimeconfig.json
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\bin\Debug\net10.0\opgave_6.dll
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\bin\Debug\net10.0\opgave_6.pdb
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.dll
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\refint\opgave_6.dll
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.pdb
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\opgave_6.genruntimeconfig.cache
+C:\Users\mikke\OneDrive\sdu_software_diplom\Intro_OOP_SDU\Exercises\opgave_6\obj\Debug\net10.0\ref\opgave_6.dll
