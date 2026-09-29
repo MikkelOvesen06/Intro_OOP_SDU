@@ -13,27 +13,6 @@ sbyte output = -128;
 output--;
 Console.WriteLine(output);
 
-
-//Opgave 5.15
-int ada_lovelace = 36; // https://en.wikipedia.org/wiki/Ada_Lovelace
-int dennis_ritchie = 70; // https://en.wikipedia.org/wiki/Dennis_Ritchie
-int grace_hopper = 85; // https://en.wikipedia.org/wiki/Grace_Hopper
-int hedy_lamarr = 85; // https://en.wikipedia.org/wiki/Hedy_Lamarr
-int edsger_dijkstra = 72; // https://en.wikipedia.org/wiki/Edsger_W._Dijkstra
-int douglas_engelbart = 88; // https://en.wikipedia.org/wiki/Douglas_Engelbart
-float male_avg = (float)(dennis_ritchie + edsger_dijkstra + douglas_engelbart) / 3;
-float female_avg = (float)(ada_lovelace + grace_hopper + hedy_lamarr) / 3;
-float avg = (male_avg + female_avg) / 2;
-float diff = male_avg - female_avg;
-Console.Write("Average lifespan of a male computer scientist: ");
-Console.WriteLine(male_avg);
-Console.Write("Average lifespan of a female computer scientist: ");
-Console.WriteLine(female_avg);
-Console.Write("Average lifespan of a computer scientist: ");
-Console.WriteLine(avg);
-Console.Write("Males live this much longer than females: ");
-Console.WriteLine(diff);
-
 //Opgave 5.8
 float pie = 3.14f;
 byte radius = 5;
@@ -45,6 +24,22 @@ float temp_celcius = 38.4f;
 float temp_fahrenheit = 32 + (9/5*temp_celcius);
 
 Console.WriteLine("Temperaturen bliver " + temp_fahrenheit);
+
+//Opgave 5.11
+int second_since_2000 = 612309423;
+int day_since_2000 = second_since_2000 / 60 / 60 / 24;
+int year_since_2000 = day_since_2000 / 365;
+int day_in_year = day_since_2000 - (year_since_2000 * 365);
+Console.WriteLine("Det er " + year_since_2000 + " År og " + day_in_year + " Dage siden 2000");
+
+//Opgave 5.12
+float month_number = 2.5f;
+if (month_number % 2 == 0) {
+   Console.WriteLine("It is the " + month_number + " month of the year");
+}
+else {
+    Console.WriteLine("You are halfway through the month: " + month_number);
+}
 
 //Opgave 5.14
 float monday = 21.5f;
@@ -68,22 +63,27 @@ Console.WriteLine(result5);
 float result6 = sunday - saturday;
 Console.WriteLine(result6);
 
+//Opgave 5.15
+int ada_lovelace = 36; // https://en.wikipedia.org/wiki/Ada_Lovelace
+int dennis_ritchie = 70; // https://en.wikipedia.org/wiki/Dennis_Ritchie
+int grace_hopper = 85; // https://en.wikipedia.org/wiki/Grace_Hopper
+int hedy_lamarr = 85; // https://en.wikipedia.org/wiki/Hedy_Lamarr
+int edsger_dijkstra = 72; // https://en.wikipedia.org/wiki/Edsger_W._Dijkstra
+int douglas_engelbart = 88; // https://en.wikipedia.org/wiki/Douglas_Engelbart
+float male_avg = (float)(dennis_ritchie + edsger_dijkstra + douglas_engelbart) / 3;
+float female_avg = (float)(ada_lovelace + grace_hopper + hedy_lamarr) / 3;
+float avg = (male_avg + female_avg) / 2;
+float diff = male_avg - female_avg;
+Console.Write("Average lifespan of a male computer scientist: ");
+Console.WriteLine(male_avg);
+Console.Write("Average lifespan of a female computer scientist: ");
+Console.WriteLine(female_avg);
+Console.Write("Average lifespan of a computer scientist: ");
+Console.WriteLine(avg);
+Console.Write("Males live this much longer than females: ");
+Console.WriteLine(diff);
+
 //Opgave 5.20
 byte dice = 1;
 bool dice_tjek = (dice >= 3);
 Console.WriteLine(dice_tjek);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

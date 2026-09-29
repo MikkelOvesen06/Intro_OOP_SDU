@@ -15,10 +15,10 @@ Console.WriteLine(max);
 int[] monthsnormal = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 int[] monthsleap = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 int[] pointer;
-for (int year=2000 ; year<=2020 ; year++) 
+for (int year=2000 ; year<=2020 ; year++)
 {
     int[] months = monthsnormal;
-    if (year % 4 == 0) 
+    if (year % 4 == 0)
     {
         pointer = monthsleap;
     }
@@ -29,6 +29,8 @@ for (int year=2000 ; year<=2020 ; year++)
         Console.Write(num + " ");
     }
 }
+
+//Opgave 7.13
 
 
 //Opgave 7.15 person discribtion
@@ -71,6 +73,24 @@ foreach (int t in tal)
 
 Console.WriteLine("Færdig! Samlet sum: " + sum);
 
+//Opgave 7.6
+int size = 16;
+int[] array = new int[size];
+Console.WriteLine(array.Length);
+
+for(int n = 0 ; n<size ; n++){
+    array[n] = 3*n;
+    Console.WriteLine(array[n]);
+}
+
+
+
+//Opgave 7.13
+int[] array_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+string[] array_months = [januar, februar, marts, april, maj, juni, juli, august, september, obtober, november, december];
+for ( int i = 0 ; i<12 ; i++)
+
+
 //Opgve sudoku checker
 int [][] arrayinarray = [
     [4, 3, 5, 2, 6, 9, 7, 8, 1],
@@ -98,3 +118,13 @@ class Person {
     public float height;
 }
 
+//Enum fra Opgave 7.13
+enum week {
+    mandag,
+    tirsdag,
+    onsdag,
+    torsdag,
+    fredag,
+    lørdag,
+    søndag,
+}
