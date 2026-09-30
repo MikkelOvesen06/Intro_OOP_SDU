@@ -85,12 +85,6 @@ for(int n = 0 ; n<size ; n++){
 
 
 
-//Opgave 7.13
-int[] array_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-string[] array_months = [januar, februar, marts, april, maj, juni, juli, august, september, obtober, november, december];
-for ( int i = 0 ; i<12 ; i++)
-
-
 //Opgve sudoku checker
 int [][] arrayinarray = [
     [4, 3, 5, 2, 6, 9, 7, 8, 1],
